@@ -91,7 +91,7 @@ function LayoutOfPage() {
 
             <div id='main'>
                 <div className='logo'>
-                    <img src="src\costco.png" alt="" />
+                    <img src="images/costco.png" alt="" />
                 </div>
                 <div className='search'>
                     <input type="text" placeholder='The search field was empty. Please enter a search term.' />
@@ -104,11 +104,10 @@ function LayoutOfPage() {
 
                 <div id='sign-up'>
                     <div className='s-o'>
-                        <a className='form-toggle-link'>
-                            Sign In / Register</a>  &nbsp; | &nbsp;
+                        <a>Sign In / Register</a>  &nbsp; | &nbsp;
                         <a href="">Orders & Returns</a>   &nbsp; | &nbsp;
                     </div>
-                    <img src="src\JSX\cart.png" alt="" />
+                    <img src="images/cart.png" alt="" />
                     <div className='cart-c' >
                         <a className='cart' href="">Cart</a>
                     </div>
@@ -161,7 +160,7 @@ function LayoutOfPage() {
                         <p className='my-w same'>My Warehouse</p>
                         <p className='d-l same' >Delivery Location</p>
                     </div>
-                    <img src="src\location.png" alt="" />
+                    <img src="images/location.png" alt="" />
                     <button className='set'>Seattle</button>
                     <p className='close-open'>Closed: Open 10:00 AM Thursday</p>
                 </div>

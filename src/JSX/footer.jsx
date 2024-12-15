@@ -15,7 +15,7 @@ function FooterOfApp(){
                     </div>
                     <div className='footer-2'>
 
-                        <img src="question-mark.png" alt="" />
+                        <img src="images/question-mark.png" alt="" />
                         <p> Get Help</p>
                         <div className='inp-btn'>
                             <input className='inp-1' type="text" placeholder='City,State or Zip' />
@@ -90,7 +90,7 @@ function FooterOfApp(){
 
                             </div>
 
-                            <div class="footer-column">
+                            <div className="footer-column">
                                 <h3>Locations & Services</h3>
                                 <ul>
                                     <li><a href="#">Find a Warehouse</a></li>
@@ -126,10 +126,10 @@ function FooterOfApp(){
                     </div>
                     <div className='footer-5'>
                         <div className='social-media-logo'>
-                            <img className='fb' src="facebook.png" alt="" />
-                            <img className='pt' src="pintrest.png" alt="" />
-                            <img className='insta' src="instagram.png" alt="" />
-                            <img className='co' src="costco-logo.png" alt="" />
+                            <img className='fb' src="images/facebook.png" alt="" />
+                            <img className='pt' src="images/pintrest.png" alt="" />
+                            <img className='insta' src="images/instagram.png" alt="" />
+                            <img className='co' src="images/costco-logo.png" alt="" />
                         </div>
                     </div>
                     <div className='footer-6'>

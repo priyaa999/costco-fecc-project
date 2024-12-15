@@ -45,31 +45,31 @@ function ProductsOfPage() {
             <LayoutOfPage />
             <main id='banners'>
                 <div className='banner-1'>
-                    <img src="src\banner.png" alt="" />
+                    <img src="images/banner.png" alt="" />
                 </div>
                 <h1>FOUR NEW DEALS ADDED DAILY!</h1>
                 <div>
                     <div className='banner-2'>
-                        <img src="src\banner-2.png" alt="" />
+                        <img src="images/banner-2.png" alt="" />
                     </div>
                     <div className='banner-3'>
-                        <img src="src\banner-3.png" alt="" />
+                        <img src="images/banner-3.png" alt="" />
                     </div>
                     <div className='banner-4'>
-                        <img src="src\banner-4.png" alt="" />
-                        <img src="src\banner-5.png" alt="" />
+                        <img src="images/banner-4.png" alt="" />
+                        <img src="images/banner-5.png" alt="" />
                     </div>
                     <div className='banner-6'>
-                        <img src="src\banner-6.png" alt="" />
-                        <img src="src\banner-6-2.png" alt="" />
-                        <img src="src\banner-6-3.png" alt="" />
+                        <img src="images/banner-6.png" alt="" />
+                        <img src="images/banner-6-2.png" alt="" />
+                        <img src="images/banner-6-3.png" alt="" />
                     </div>
                     <div className='banner-7'>
-                        <img src="src\banner-7.png" alt="" />
+                        <img src="images/banner-7.png" alt="" />
                     </div>
                     <div className='banner-8'>
-                        <img src="src\banner-8-1.png" alt="" />
-                        <img src="src\banner-8-2.png" alt="" />
+                        <img src="images/banner-8-1.png" alt="" />
+                        <img src="images/banner-8-2.png" alt="" />
                     </div>
                     <div id='slider'>
                         <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />

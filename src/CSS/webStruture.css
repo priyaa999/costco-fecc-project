@@ -44,6 +44,9 @@
     margin-bottom: 1rem;
     font-size: .7rem;
     transition: border-bottom-color 0.3s ease;
+    > a {
+        color: #005DAB;
+    }
 }
 
 .a-elements a:hover {
@@ -98,12 +101,13 @@
     margin-left: 1rem;
 }
 
-#sign-up a {
+#sign-up .s-o a {
     transition: border-bottom 0.3s ease;
     text-decoration: none;
+    color: #005DAB;
 }
 
-#sign-up a:hover{
+#sign-up .s-o a:hover{
     width: fit-content;
     border-bottom: 1px solid blue
 }
@@ -118,6 +122,7 @@
 #sign-up .cart {
     text-align: center;
     transition: border-bottom 0.3s ease;
+    color: #005DAB;
 }
 
 .drop-down {
