@@ -1,0 +1,366 @@
+.top-header {
+    margin: 0;
+    background-color: #005DAB;
+    padding: .3rem 0;
+    text-align: center;
+}
+
+.top-header a {
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main {
+    display: flex;
+}
+
+
+.logo {
+    width: 11%;
+    height: auto;
+    margin-left: 4rem;
+}
+
+.logo img {
+    width: 150%;
+}
+
+.search {
+    position: relative;
+}
+
+.a-elements {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+    margin: auto;
+    width: 80%;
+    margin: .5rem;
+    margin: auto;
+    color: #005DAB;
+    margin-bottom: 1rem;
+    font-size: .7rem;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.a-elements a:hover {
+    width: fit-content;
+    border-bottom: 1px solid blue
+}
+
+.a-elements a {
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.search input {
+    width: 40rem;
+    height: 2rem;
+    font-weight: 200;
+    outline: none;
+    transition: border 0.3s;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    margin-top: 3%;
+   
+}
+
+.search input:focus {
+    border: 2px solid #005DAB;
+    box-shadow: 0 0 5px rgba(0, 93, 171, 0.5);
+}
+
+.search button {
+    position: absolute;
+    right: 0;
+    background: transparent;
+    border: none;
+    padding: .4rem;
+    margin-top: 3%;
+    color: rgb(14, 74, 162);
+}
+
+.disable-opt {
+    font-weight: 600;
+    color: black;
+}
+
+/* #main-section {} */
+
+#sign-up {
+    display: flex;
+    gap: 10px;
+    font-size: .8rem;
+    margin-top:3%;
+    margin-left: 1rem;
+}
+
+#sign-up a {
+    transition: border-bottom 0.3s ease;
+    text-decoration: none;
+}
+
+#sign-up a:hover{
+    width: fit-content;
+    border-bottom: 1px solid blue
+}
+
+#sign-up img {
+    width: 6%;
+    height: auto;
+    margin-bottom: 5rem;
+    background-color: #005DAB;
+}
+
+#sign-up .cart {
+    text-align: center;
+    transition: border-bottom 0.3s ease;
+}
+
+.drop-down {
+    position: absolute;
+    top: 8%;
+    right: 3%;
+    /* border: 2px solid black; */
+    border: none;
+    color: #005DAB;
+
+}
+
+.drop-down button {
+    color: #005DAB;
+    background-color: white;
+    border: none;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.drop-down button:hover {
+    border-bottom: 1px solid blue;
+    width: fit-content;
+}
+
+.country {
+    display: none;
+}
+
+/* In above line of code we use nested css for adjusting a 
+values inside a p & h2 tag  */
+.country.active-class {
+    z-index: 1;
+    position: absolute;
+    display: block;
+    width: 15%;
+    padding: 1rem;
+    background: white;
+    top: 12%;
+    right: 0;
+
+    >h2 {
+        color: black;
+        margin: .2rem;
+        font-size: .9rem;
+        font-weight: 500;
+        padding: .2rem;
+    }
+}
+
+.shop-btn {
+    display: flex;
+    gap: 10px;
+    background-color: #005DAB;
+    border: none;
+    color: white;
+    padding-bottom: 0;
+}
+
+.svg {
+    width: 15%;
+    text-decoration: none;
+    display: block;
+}
+
+.shop-btn span {
+    margin-top: 2%;
+}
+
+#main-section {
+    display: flex;
+    /* border: 2px solid black; */
+    background-color: #005DAB;
+    text-align: center;
+}
+
+#main-section li {
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    font-size: .7rem;
+    list-style: none;
+
+}
+
+.main-section-items {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 2%;
+    font-weight: 500;
+    padding: 0;
+
+}
+
+
+.main-section-items li {
+    transition: border-bottom-color 0.3s ease;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+
+}
+
+.main-section-items li:hover {
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+
+#top-middle-content {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+}
+
+.appliance {
+    font-size: .7rem;
+    background-color: white;
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    z-index: 20;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    /* border: 3px solid rgb(4, 4, 255); */
+    >h4 {
+        padding-right: 30%;
+    }
+
+    >p {
+        padding-right: 30%;
+    }
+}
+
+
+.location-time {
+    font-size: .6rem;
+    margin-left: 3%;
+    font-size: .6rem;
+    margin-left: 3%;
+    position: relative;
+    z-index: 10;
+
+}
+
+.location-time .same-ps {
+    display: flex;
+    gap: 10%;
+}
+
+
+.location-time .set {
+    font-size: .7rem;
+    font-weight: bold;
+    border: none;
+    background: none;
+}
+
+.location-time img {
+    width: 3%;
+    margin-left: 3%;
+}
+
+.location-time .close-open {
+    padding-bottom: 1%;
+    color: red;
+}
+
+/* In above line of css code i gives both img & p tag display inline-block coz 
+we place both of them in single line  */
+.location-time img,
+.set {
+    display: inline-block;
+    position: relative;
+    right: 3rem;
+    vertical-align: middle;
+    bottom: .5rem;
+    /* border: 2px solid red; */
+}
+
+.small-box img {
+    width: 2%;
+}
+
+#parent {
+    position: relative;
+}
+
+.li-bg {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 2%;
+    /* top: 2px; */
+    font-size: .7rem;
+    transform: translateY(-40px);
+}
+
+.li-bg a{
+    text-decoration: none;
+    transition: border-bottom 0.3s ease;
+}
+.li-bg a:hover{
+    border-bottom: 2px solid blue;
+    width: fit-content;
+}
+/* When an image appears slightly higher or lower than adjacent text, vertical-align: middle; 
+ensures they align visually at the center: */
+
+
+
+@media (min-width:701px) and (max-width:998px) {
+    body {
+        font-size:14px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .a-elements .a {
+        display: none;
+        padding: 10px;
+    }
+
+    #sign-up .s-o {
+        display: none;
+    }
+    #sign-up .cart{
+        display: none;
+    }
+
+    #sign-up img {
+        width: 7%;
+    }
+    
+    .logo img {
+        width: 100%;
+    }
+    .search input {
+     font-size:.7rem ;
+       width: 20rem;
+    }
+    .main-section-items {
+        display: none;
+        background-color: white;
+        width: 0;
+
+    }
+    
+}
